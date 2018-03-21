@@ -128,7 +128,7 @@ a:hover {
 /* -----> Header <----- */
 
 .header-wrapper {
-    background-image: url(pics/Auction/header.jpg);
+    background-image: url(../pics/Auction/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
