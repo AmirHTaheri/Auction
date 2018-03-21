@@ -120,23 +120,21 @@ $(document).ready(function () {
         var thead = table.createTHead();
         thead.setAttribute("class", "thead-light");
 
-        var input;
-        var placeholder = "Search for";
-
         var row = thead.insertRow(-1);
         var cell;
 
-        for (i = 0; i < col.length; i++) {
-            //input = document.createElement("input");
-            //input.setAttribute("class", "form-control");
-            //input.setAttribute("onkeyup", "searchFunction(id)");
-            //input.setAttribute("id", col[i]);
-            //input.setAttribute("placeholder", placeholder + " " + col[i]);
-            
-            
+        var img;
 
+        for (i = 0; i < col.length; i++) {
             cell = row.insertCell(-1);
-            cell.innerHTML = col[i];
+            if (i === 0) {
+                img = document.createElement('img');
+                img.src = "/pics/cars/car.jpg";
+                cell.appendChild(img);
+            } else {
+                cell.innerHTML = col[i];
+            }
+
             // Sorting from header
             let sort = "sortTable(" + i.toString() + ")";
             cell.setAttribute("onclick", sort);
@@ -159,7 +157,7 @@ $(document).ready(function () {
         $(function () {
             $("table")
                 .tablesorter({ widthFixed: true, widgets: ['zebra'] })
-                .tablesorterPager({ container: $("#pager") });
+                .tablesorterPager({ container: $("#aucPager") });
 
         });
     };

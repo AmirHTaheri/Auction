@@ -75,32 +75,36 @@
             <h2>Announcements</h2>
 
             <div id="myContainer" class="container">
-                <input type="text" id="myInput" onkeyup="searchFunction(id)" placeholder="Search for id.." title="Type in a id">
-                <input type="text" id="Titel" onkeyup="searchFunction(id)" placeholder="Search for Titel.." title="Type in a title">
-                <input type="text" id="Beskrivning" onkeyup="searchFunction(id)" placeholder="Search for Description.." title="Type in a description">
-                <input type="text" id="SlutDatum" onkeyup="searchFunction(id)" placeholder="Search for StartDatum.." title="Type in a price">
-                <input type="text" id="Gruppkod" onkeyup="searchFunction(id)" placeholder="Search for Group code.." title="Type in a code">
-                <!--<input type="text" id="Price" onkeyup="searchFunction(id)" placeholder="Search for Price.." title="Type in a price">-->
+                <input type="search" id="myInput" onkeyup="searchFunction(id)" placeholder="Search for id.." title="Type in a id">
+                <input type="search" id="Titel" onkeyup="searchFunction(id)" placeholder="Search for Titel.." title="Type in a title">
+                <input type="search" id="Beskrivning" onkeyup="searchFunction(id)" placeholder="Search for Description.." title="Type in a description">
+                <br/>
+                <input type="search" id="SlutDatum" onkeyup="searchFunction(id)" placeholder="Search for StartDatum.." title="Type in a price">
+                <input type="search" id="Gruppkod" onkeyup="searchFunction(id)" placeholder="Search for Group code.." title="Type in a code">
+                <input type="search" id="Price" onkeyup="searchFunction(id)" placeholder="Search for Price.." title="Type in a price">
 
 
             </div>
         </section>
 
         <section class="section-wrapper">
-            <div id="pager"  class="pager">
-                <form>
-                    <img src="icons/first.png" class="first" />
-                    <img src="icons/prev.png" class="prev" />
-                    <input type="text" class="pagedisplay" />
-                    <img src="icons/next.png" class="next" />
-                    <img src="icons/last.png" class="last" />
-                    <select class="pagesize">
-                        <option selected="selected" value="10">10</option>
-                        <option value="20">20</option>
-                        <option value="30">30</option>
-                        <option value="40">40</option>
-                    </select>
-                </form>
+
+            <div style="position:static;">
+                <div id="aucPager" style="position: relative;">
+                    <form>
+                        <img src="icons/first.png" class="first" />
+                        <img src="icons/prev.png" class="prev" />
+                        <input type="text" class="pagedisplay" />
+                        <img src="icons/next.png" class="next" />
+                        <img src="icons/last.png" class="last" />
+                        <select class="pagesize">
+                            <option selected="selected" value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                        </select>
+                    </form>
+                </div>
             </div>
 
         </section>

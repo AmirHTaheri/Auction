@@ -22,7 +22,7 @@
 					if(o.offset) {
 						c.container.css({
 							top: o.offset().top + o.height() + 'px',
-							position: 'absolute'
+							position: 'static' //changed by amir
 						});
 					}
 					c.pagerPositionSet = true;
