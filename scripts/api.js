@@ -123,7 +123,9 @@ $(document).ready(function () {
         var cell;
         var img;
 
-        for (i = 0; i < col.length+1; i++) {
+        for (i = 0; i < col.length + 1; i++) {
+            if (i === 3 || i === 4)
+                continue;
             cell = row.insertCell(-1);
 
             if (i === 0) {
@@ -143,7 +145,10 @@ $(document).ready(function () {
 
         for (var j = 0; j < jsonData.length; j++) {
             row = tBody.insertRow(-1);
-            for (i = 0; i < col.length+1; i++) {
+            for (i = 0; i < col.length + 1; i++) {
+                if (i === 3 || i === 4)
+                    continue;
+
                 cell = row.insertCell(-1);
 
                 if (i === 0) {
@@ -247,14 +252,11 @@ function searchFunction(id) {
         case "Beskrivning":
             index = 2;
             break;
-        case "SlutDatum":
-            index = 4;
-            break;
         case "Gruppkod":
-            index = 5;
+            index = 3;
             break;
         case "Price":
-            index = 6;
+            index = 4;
             break;
         default:
             index = 0;
