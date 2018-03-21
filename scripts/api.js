@@ -8,7 +8,7 @@ $(document).ready(function () {
     var urlOld = "https://nackowskis.azurewebsites.net/api/Auktion/200/";
 
     /******************************************************************/
-// ReSharper disable once JoinDeclarationAndInitializerJs
+    // ReSharper disable once JoinDeclarationAndInitializerJs
     var createTable;
     var createSection;
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
     };
 
     createSection = function () {
-        
+
         var bildDiv;
         var parentBildDiv;
         var divImg;
@@ -34,7 +34,7 @@ $(document).ready(function () {
         var divId;
         var hashId;
         var imgId;
-        var h3,h4;
+        var h3, h4;
         var p;
 
         for (var i = 0; i < numberOfSections; i++) {
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
             for (var j = 0; j < 3; j++) {
                 bildDiv = document.createElement("div");
-                childDivId = "auction-content" + +i+j;
+                childDivId = "auction-content" + +i + j;
                 bildDiv.setAttribute("id", childDivId);
                 bildDiv.setAttribute("class", "col-1-3");
                 bildDiv.classList.add('auction-content');
@@ -55,7 +55,7 @@ $(document).ready(function () {
                 var auctionContent = document.getElementById(divId);
                 auctionContent.appendChild(bildDiv);
 
-                
+
                 divImg = document.createElement("img");
                 divImg.setAttribute("class", "created-img");
                 divImg.setAttribute("src", picSrc);
@@ -115,26 +115,23 @@ $(document).ready(function () {
         table.classList.add('table-responsive');
 
         table.setAttribute("id", "myTable");
-        
+
 
         var thead = table.createTHead();
         thead.setAttribute("class", "thead-light");
 
         var row = thead.insertRow(-1);
         var cell;
-
         var img;
 
         for (i = 0; i < col.length; i++) {
             cell = row.insertCell(-1);
+
             if (i === 0) {
-                img = document.createElement('img');
-                img.src = "/pics/cars/car.jpg";
-                cell.appendChild(img);
+                cell.innerHTML = "Item";
             } else {
                 cell.innerHTML = col[i];
             }
-
             // Sorting from header
             let sort = "sortTable(" + i.toString() + ")";
             cell.setAttribute("onclick", sort);
@@ -147,8 +144,17 @@ $(document).ready(function () {
             row = tBody.insertRow(-1);
             for (i = 0; i < col.length; i++) {
                 cell = row.insertCell(-1);
-                cell.innerHTML = jsonData[j][col[i]];
 
+                if (i === 0) {
+                    img = document.createElement('img');
+                    img.src = "pics/cars/car.jpg";
+                    cell.appendChild(img);
+                } else if (i === 6) {
+                    cell.innerHTML = jsonData[j][col[i]] + " Kr";
+                }
+                else {
+                    cell.innerHTML = jsonData[j][col[i]];
+                }
             }
         }
 
