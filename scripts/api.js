@@ -33,9 +33,8 @@ $(document).ready(function () {
         var childDivId;
         var divId;
         var hashId;
-        var img = "img";
         var imgId;
-        var h3;
+        var h3,h4;
         var p;
 
         for (var i = 0; i < numberOfSections; i++) {
@@ -71,6 +70,7 @@ $(document).ready(function () {
                 imgId = img + j;
 
                 h3 = document.createElement("h3");
+                h3.setAttribute("border-bottom", "1px solid #eae8e8");
                 h3.innerHTML = jsonData[j].Titel;
                 $(hashId).append(h3);
 
@@ -78,6 +78,10 @@ $(document).ready(function () {
                 p.innerHTML = jsonData[j].Beskrivning;
                 $(hashId).append(p);
 
+                h4 = document.createElement("h4");
+                h4.setAttribute("border-bottom", "1px solid #eae8e8");
+                h4.innerHTML = "Price: " + jsonData[j].Utropspris;
+                $(hashId).append(h4);
 
 
                 $(hashId).prepend(divImg);
