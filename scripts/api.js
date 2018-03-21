@@ -28,7 +28,6 @@ $(document).ready(function () {
         var bildDiv;
         var parentBildDiv;
         var divImg;
-        var Id = "bildDiv";
 
         var childDivId;
         var divId;
@@ -124,13 +123,15 @@ $(document).ready(function () {
         var cell;
         var img;
 
-        for (i = 0; i < col.length; i++) {
+        for (i = 0; i < col.length+1; i++) {
             cell = row.insertCell(-1);
 
             if (i === 0) {
                 cell.innerHTML = "Item";
-            } else {
+            } else if (i < col.length) {
                 cell.innerHTML = col[i];
+            } else {
+                cell.innerHTML = "Can bid?";
             }
             // Sorting from header
             let sort = "sortTable(" + i.toString() + ")";
@@ -142,18 +143,22 @@ $(document).ready(function () {
 
         for (var j = 0; j < jsonData.length; j++) {
             row = tBody.insertRow(-1);
-            for (i = 0; i < col.length; i++) {
+            for (i = 0; i < col.length+1; i++) {
                 cell = row.insertCell(-1);
 
                 if (i === 0) {
                     img = document.createElement('img');
                     img.src = "pics/cars/car.jpg";
                     cell.appendChild(img);
-                } else if (i === 6) {
+                } else if (i === col.length-1) {
                     cell.innerHTML = jsonData[j][col[i]] + " Kr";
+                } else if (i < col.length) {
+                    cell.innerHTML = jsonData[j][col[i]];
                 }
                 else {
-                    cell.innerHTML = jsonData[j][col[i]];
+                    img = document.createElement('img');
+                    img.src = "pics/cellColor/red.png";
+                    cell.appendChild(img);
                 }
             }
         }
