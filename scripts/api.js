@@ -80,7 +80,7 @@ $(document).ready(function () {
 
                 h4 = document.createElement("h4");
                 h4.setAttribute("border-bottom", "1px solid #eae8e8");
-                h4.innerHTML = "Price: " + jsonData[j].Utropspris;
+                h4.innerHTML = "Highest bid: " + jsonData[j].Utropspris;
                 $(hashId).append(h4);
 
 
