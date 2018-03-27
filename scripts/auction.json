@@ -47,7 +47,7 @@
   "Gruppkod": 200,
   "Utropspris": 295000
 }, {
-  "AuktionID": 36,
+  "AuktionID": 7,
   "Titel": "Audi Quatro Diesel",
   "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -55,7 +55,7 @@
   "Gruppkod": 200,
   "Utropspris": 205000
 }, {
-  "AuktionID": 71,
+  "AuktionID": 8,
   "Titel": "Audi sedan Diesel",
   "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -63,7 +63,7 @@
   "Gruppkod": 200,
   "Utropspris": 245000
 }, {
-  "AuktionID": 386,
+  "AuktionID": 9,
   "Titel": "Saab Diesel",
   "Beskrivning": "2011, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -71,7 +71,7 @@
   "Gruppkod": 100,
   "Utropspris": 95000
 }, {
-  "AuktionID": 306,
+  "AuktionID": 10,
   "Titel": "Saab Diesel",
   "Beskrivning": "2001, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -79,7 +79,7 @@
   "Gruppkod": 100,
   "Utropspris": 15000
 }, {
-  "AuktionID": 307,
+  "AuktionID": 11,
   "Titel": "Saab",
   "Beskrivning": "2000, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -87,7 +87,7 @@
   "Gruppkod": 100,
   "Utropspris": 10000
 }, {
-  "AuktionID": 424,
+  "AuktionID": 12,
   "Titel": "Ford Focus",
   "Beskrivning": "Good conddition",
   "StartDatum": "2018-03-16T00:00:00",
@@ -96,8 +96,8 @@
   "Utropspris": 12200
 }, {
   "AuktionID": 428,
-  "Titel": "ööööööööööö",
-  "Beskrivning": "öööööööööö",
+  "Titel": "Ford Focus",
+  "Beskrivning": "2003, Pretty good shape",
   "StartDatum": "2018-03-03T00:00:00",
   "SlutDatum": "2018-03-08T00:00:00",
   "Gruppkod": 200,
