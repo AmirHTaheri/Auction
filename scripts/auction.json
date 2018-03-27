@@ -1,59 +1,91 @@
 [{
   "AuktionID": 2,
-  "Titel": "BMW 220 d",
-  "Beskrivning": "Pretty good shape",
+  "Titel": "Audi A6 Diesel",
+  "Beskrivning": "2012, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
   "Gruppkod": 200,
-  "Utropspris": 1500
+  "Utropspris": 155000
+}, {
+  "AuktionID": 2,
+  "Titel": "Volex Vagon Diesel",
+  "Beskrivning": "2012, Pretty good shape",
+  "StartDatum": "2018-03-10T00:00:00",
+  "SlutDatum": "2018-03-31T00:00:00",
+  "Gruppkod": 200,
+  "Utropspris": 155000
+}, {
+  "AuktionID": 2,
+  "Titel": "Volex Vagon Diesel",
+  "Beskrivning": "2010, Pretty good shape",
+  "StartDatum": "2018-03-10T00:00:00",
+  "SlutDatum": "2018-03-31T00:00:00",
+  "Gruppkod": 200,
+  "Utropspris": 100000
+}, {
+  "AuktionID": 2,
+  "Titel": "Audi A6 Diesel",
+  "Beskrivning": "2012, Pretty good shape",
+  "StartDatum": "2018-03-10T00:00:00",
+  "SlutDatum": "2018-03-31T00:00:00",
+  "Gruppkod": 200,
+  "Utropspris": 155000
 }, {
   "AuktionID": 32,
-  "Titel": "Ralles rejs",
-  "Beskrivning": "En film säkert",
+  "Titel": "BMW X5 Diesel",
+  "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
   "Gruppkod": 200,
-  "Utropspris": 6500
+  "Utropspris": 395000
 }, {
   "AuktionID": 35,
-  "Titel": "röjar ralf",
-  "Beskrivning": "amen dehär är en bok",
+  "Titel": "BMW Coupet Bensin",
+  "Beskrivning": "2014, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
   "Gruppkod": 200,
-  "Utropspris": 500
+  "Utropspris": 295000
 }, {
   "AuktionID": 36,
-  "Titel": "röjar ralf uppföljaren",
-  "Beskrivning": "amen dehär är en till bok",
+  "Titel": "Audi Quatro Diesel",
+  "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
   "Gruppkod": 200,
-  "Utropspris": 800
+  "Utropspris": 205000
 }, {
   "AuktionID": 71,
-  "Titel": "Bmw 520d",
-  "Beskrivning": "Bil",
+  "Titel": "Audi sedan Diesel",
+  "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
   "Gruppkod": 200,
-  "Utropspris": 58335
+  "Utropspris": 245000
 }, {
   "AuktionID": 386,
-  "Titel": "Bmw 520d",
-  "Beskrivning": "Sedan",
+  "Titel": "Saab Diesel",
+  "Beskrivning": "2011, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
-  "Utropspris": 58335
+  "Gruppkod": 100,
+  "Utropspris": 95000
 }, {
-  "AuktionID": 387,
-  "Titel": "Bmw 320d",
-  "Beskrivning": "Bil",
+  "AuktionID": 306,
+  "Titel": "Saab Diesel",
+  "Beskrivning": "2001, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
-  "Utropspris": 58335
+  "Gruppkod": 100,
+  "Utropspris": 15000
+}, {
+  "AuktionID": 307,
+  "Titel": "Saab",
+  "Beskrivning": "2000, Pretty good shape",
+  "StartDatum": "2018-03-10T00:00:00",
+  "SlutDatum": "2018-03-31T00:00:00",
+  "Gruppkod": 100,
+  "Utropspris": 10000
 }, {
   "AuktionID": 424,
   "Titel": "Ford Focus",
