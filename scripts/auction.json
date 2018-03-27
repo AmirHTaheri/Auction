@@ -1,10 +1,10 @@
 [{
-  "AuktionID": 2,
+  "AuktionID": 1,
   "Titel": "Audi A6 Diesel",
   "Beskrivning": "2012, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
+  "Gruppkod": 400,
   "Utropspris": 155000
 }, {
   "AuktionID": 2,
@@ -12,26 +12,26 @@
   "Beskrivning": "2012, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
+  "Gruppkod": 300,
   "Utropspris": 155000
 }, {
-  "AuktionID": 2,
+  "AuktionID": 3,
   "Titel": "Volex Vagon Diesel",
   "Beskrivning": "2010, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
+  "Gruppkod": 300,
   "Utropspris": 100000
 }, {
-  "AuktionID": 2,
+  "AuktionID": 4,
   "Titel": "Audi A6 Diesel",
   "Beskrivning": "2012, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
   "SlutDatum": "2018-03-31T00:00:00",
-  "Gruppkod": 200,
+  "Gruppkod": 400,
   "Utropspris": 155000
 }, {
-  "AuktionID": 32,
+  "AuktionID": 5,
   "Titel": "BMW X5 Diesel",
   "Beskrivning": "2015, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
@@ -39,7 +39,7 @@
   "Gruppkod": 200,
   "Utropspris": 395000
 }, {
-  "AuktionID": 35,
+  "AuktionID": 6,
   "Titel": "BMW Coupet Bensin",
   "Beskrivning": "2014, Pretty good shape",
   "StartDatum": "2018-03-10T00:00:00",
